@@ -29,11 +29,12 @@ body {
 }
 .profileName{
     text-align: center;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bolder;
-    padding: 30px;
+    margin-top: 20px;
     font-size: 44px;
     color: orangered;
+
 }
 a{
     color: black;
@@ -64,3 +65,7 @@ a {
     color: black;
     background-color: orangered;
   }
+.home{
+    text-align: center;
+    color: orangered;
+}
