@@ -4,12 +4,13 @@ body {
 }
 .bGround {
    background-color: black;
-   background-image: url("../images/blackscience_anaglyph.jpg");
+   /* background-image: url("../images/blackscience_anaglyph.jpg"); */
    padding-top: 200px;
    padding-bottom: 700px;
    background-repeat: no-repeat;
    background-attachment: fixed;
    background-position: center;
+   padding: 30%;
 }
 .video{
     display: flex;
@@ -33,7 +34,7 @@ body {
     font-weight: bolder;
     margin-top: 20px;
     font-size: 44px;
-    color: orangered;
+    color: white;
 
 }
 a{
@@ -64,4 +65,18 @@ a {
   a:hover {
     color: black;
     background-color: orangered;
+  }
+  h3{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: orangered;
+    font-weight: bold;
+    margin-top: 5px;
+  }
+  .border{
+    border-style: solid;
+    border-color: white;
+    border-width: thick;
+    padding: 5%;
+    border-radius: 10px;   
   }
