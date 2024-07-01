@@ -44,9 +44,9 @@ a{
 .links{
   text-align: center;
   margin-top: 20px;
-  background-color: black;
+  background-color: white;
   border-width: 2px;
-  padding: 20px;
+  
 
   width: 275px;
   display: block;
@@ -58,7 +58,7 @@ a{
 a {
     text-decoration: none;
   
-    color: white;
+    color: black;
     transition: color 1s;
   }
   
@@ -80,3 +80,18 @@ a {
     padding: 5%;
     border-radius: 10px;   
   }
+@media (max-width:500px) {
+    .profilePic {
+      float: none;
+      width: 100%;
+    }
+
+}
+@media (max-width:500px) {
+    .links {
+     float:none;
+     width: 100%;
+  }
+}
+
+    
