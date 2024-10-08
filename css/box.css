@@ -27,14 +27,11 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr;
   justify-content: space-evenly;
-  justify-items: center;
-  align-content: space-evenly;
   align-items: center;
 
 }
 
 .one {
-  background-color: orange;
   height: 100px;
   width: 100px;
   margin-left: 40%;
@@ -42,21 +39,18 @@ body {
   margin-right: 10%;
 } 
 .two {
-  background-color: green;
   height: 100px;
   width: 100px;
   margin-right: 40%;
   margin-bottom: 5%;
 } 
 .three {
-  background-color: orange;
   height: 100px;
   width: 100px;
   margin-left: 40%;
   margin-right: 10%;
 }
 .four {
-  background-color: green;
   height: 100px;
   width: 100px;
   margin-right: 40%;
