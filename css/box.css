@@ -1,6 +1,7 @@
 body {
   margin: 0;
   letter-spacing: 2px;
+  background-color: olivedrab;
 }
 .profileName{
     text-align: center;
